@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    width: 500px;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#face{
+    width: 180px;
+    height: 180px;
+    border: 5px solid red;
+    position: relative;
+    border-radius: 50%;
+}
+.leyebrow {
+	position: absolute;
+	border-radius: 50%;
+	border-top: 3px solid red;
+	height: 21px;
+	width: 31px;
+	left: 40px;
+	top: 39px;
+}
+.reyebrow {
+	position: absolute;
+	border-radius: 50%;
+	border-top: 3px solid red;
+	height: 21px;
+	width: 31px;
+	left: 110px;
+	top: 39px;
+}
+.leye {
+	position: absolute;
+	border-radius: 50%;
+	height: 31px;
+	width: 19px;
+	border: 2px solid red;
+	top: 50px;
+	left: 43px;
+    overflow: hidden;
+}
+.reye {
+	position: absolute;
+	border-radius: 50%;
+	height: 31px;
+	width: 19px;
+	border: 2px solid red;
+	top: 50px;
+	left: 115px;
+    overflow: hidden;
+}
+.nose {
+	position: absolute;
+	border-radius: 50%;
+	border: 2px solid red;
+	top: 87px;
+	left: 85px;
+	height: 35px;
+	width: 3px;
+}
+.mouth {
+	position: absolute;
+	border-radius: 50%;
+	border-bottom: 3px solid red;
+	height: 21px;
+	width: 42px;
+	left: 67px;
+	top: 128px;
+}
+.pupil {
+	position: absolute;
+	border-radius: 50%;
+	background-color: red;
+	height: 14px;
+	width: 13px;
+	top: 17px;
+	left: 6px;
+}
